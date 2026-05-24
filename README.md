@@ -1,49 +1,38 @@
-# La Subcultura Gótica
+# Subcultura Gótica 🦇
 
-Proyecto final - Página web sobre la subcultura gótica, su historia, literatura, música y estilos.
+Proyecto final: Página web sobre la subcultura gótica, su historia, literatura, música y estilos.
 
-## 📋 Características
+## 📋 Contenido
 
-- **Inicio**: Presentación de la subcultura gótica
-- **Literatura**: Autores y libros góticos clásicos
+- **Inicio**: Introducción a la subcultura gótica
+- **Literatura**: Autores y obras góticas clásicas
 - **Música**: Bandas representativas del gothic rock y darkwave
-- **Estilos**: Diferentes subcategorías de la moda gótica
+- **Estilos**: Diferentes estilos dentro de la estética gótica
 - **Contacto**: Formulario de contacto
-- **Tema claro/oscuro**: Toggle para cambiar entre temas
 
-## 🎨 Diseño
+## 🎨 Características
 
-- Paleta de colores oscura y elegante
-- Tipografía gótica (Cinzel, UnifrakturCook)
-- Diseño responsive
-- Efectos hover animados
+- Diseño oscuro y elegante con paleta gótica
+- Tipografía especializada (Cinzel, UnifrakturCook)
+- Responsive design
+- Cambio de tema (oscuro/claro)
+- Formulario de contacto interactivo
+- Navegación fluida entre páginas
 
-## 🚀 Despliegue
+## 🚀 Cómo usar
 
-Este sitio está deployado en GitHub Pages y accessible en:
-**https://fer6789345.github.io/subcultura-gotica/**
+1. Clona el repositorio
+2. Abre `index.html` en tu navegador
+3. Navega por las diferentes secciones
 
-## 📁 Estructura
+## 🔗 Sitio en vivo
 
-```
-.
-├── index.html
-├── literatura.html
-├── musica.html
-├── estilos.html
-├── contacto.html
-├── styles.css
-├── script.js
-└── README.md
-```
+[Ver sitio en GitHub Pages](https://fer6789345.github.io/subcultura-gotica/)
 
-## 🔧 Funcionalidades JS
+## 📝 Autor
 
-- Mostrar mensaje informativo
-- Cambiar entre tema claro y oscuro
-- Validación de formulario
-- Persistencia de preferencia de tema con localStorage
+fer6789345
 
 ---
 
-*Proyecto Final - Subcultura Gótica* 🦇
+*La cultura gótica es expresión artística, sensibilidad emocional y creatividad.*

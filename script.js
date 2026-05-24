@@ -1,3 +1,5 @@
+// script.js
+
 function mostrarMensaje(){
     alert(
         "La cultura gótica mezcla arte, música, literatura y expresión emocional."
@@ -9,14 +11,6 @@ function cambiarTema(){
     const esClaro = document.body.classList.contains("tema-claro");
     localStorage.setItem("tema", esClaro ? "claro" : "oscuro");
 }
-
-// Guardar preferencia del tema
-document.addEventListener("DOMContentLoaded", () => {
-    const temaSaved = localStorage.getItem("tema");
-    if (temaSaved === "claro") {
-        document.body.classList.add("tema-claro");
-    }
-});
 
 function validarFormulario(event) {
     event.preventDefault();
@@ -31,3 +25,11 @@ function validarFormulario(event) {
         alert("Por favor completa todos los campos.");
     }
 }
+
+// Restaurar tema guardado
+document.addEventListener("DOMContentLoaded", () => {
+    const temaSaved = localStorage.getItem("tema");
+    if (temaSaved === "claro") {
+        document.body.classList.add("tema-claro");
+    }
+});
